@@ -8,11 +8,6 @@
     --cor-fundo-cinza-claro: #353535;
 }
 
-@font-face {
-    font-family: 'inkyflutterby', sans-serif;
-    src: url('src/webfonts/inkyflutterby.ttf');
-}
-
 :root {
     --fonte-primaria: 'Poppins', sans-serif;
     --fonte-secundaria: 'inkyflutterby', sans-serif;
@@ -21,7 +16,6 @@
     --fonte-grande: 2.4rem;
     --fonte-normal: 1.6rem;
 }
-
 
 :root {
     --mobile-padding: 30px;
