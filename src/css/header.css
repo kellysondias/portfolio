@@ -25,6 +25,7 @@
 }
 
 .header nav ul li a {
+    font-family: var(--fonte-secundaria);
     text-transform: capitalize;
     font-size: 2rem;
     font-weight: 500;

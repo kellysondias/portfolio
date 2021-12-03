@@ -28,7 +28,7 @@
 }
 
 .home .texto-home p {
-    font-family: var(--fonte-primaria);
+    font-family: var(--fonte-secundaria);
     font-size: var(--fonte-grande);
     margin-bottom: 10px;
 }
