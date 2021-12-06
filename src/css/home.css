@@ -33,18 +33,12 @@
     margin-bottom: 10px;
 }
 
-.home .texto-home p:hover, .home .texto-home h1:hover,
-.home .texto-home h2:hover  {
-    color: var(--cor-primaria);
-    transition: all 0.3s ease-in-out;
-    
-}
-
 .home .texto-home h1 {
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-gigante);
     font-weight: 700;
     margin-bottom: 20px;
+    color: var(--cor-primaria);
 }
 
 .home .texto-home h2 {

@@ -1,16 +1,18 @@
+
 .sobre-mim .imagem-sobre-mim {
     max-width: 40%;
     padding: 0 15px;
 }
 
 .sobre-mim .imagem-sobre-mim .img-box {
+    background: url("../imagens/8bit_forest2.jpg") no-repeat center center;
+    background-size: cover;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
 }
 
 .sobre-mim .imagem-sobre-mim img {
-    border: 10px solid transparent;
     border-radius: 5px;
 }
 

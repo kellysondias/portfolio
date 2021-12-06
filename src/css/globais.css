@@ -62,13 +62,13 @@ strong {
   line-height: 40px;
 }
 
-.outer-shadow {
+/* .outer-shadow {
   box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
 }
 
 .inner-shadow {
   box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-}
+} */
 
 .section {
   padding: 7rem 0 7rem;
@@ -92,9 +92,9 @@ strong {
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.3s ease;
-  background-color: var(--cor-primaria);
+  background-color: #3ba8e7;
 }
 
 .botao:hover {
-  background-color: var(--cor-secundaria);
+  background-color: #6cb92d;
 }
