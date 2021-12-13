@@ -5,11 +5,6 @@
     grid-gap: 20px;
 }
 
-@media (max-width: 1280px) {
-    .projetos .container-projetos {
-        padding: 0 var(--mobile-padding);
-    }
-}
 
 .projetos .container-projetos .projeto {
     border-radius: 5px;
@@ -29,6 +24,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 100%;
+    width: 100%;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto {
@@ -61,3 +57,8 @@
     margin-top: 10px;
     font-size: 1.4rem;
 }
+    @media (max-width: 1280px) {
+        .projetos .container-projetos {
+            padding: 0 var(--mobile-padding);
+        }
+    }
