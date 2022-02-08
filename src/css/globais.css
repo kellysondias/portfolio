@@ -109,7 +109,8 @@ strong {
   background-color: var(--cor-primaria);
 }
 
-.botao:hover {
+.botao:hover,
+.botao:active {
   background-color: #d10101;
 }
 
