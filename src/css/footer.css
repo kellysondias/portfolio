@@ -12,3 +12,37 @@
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+
+.footer .container .contato {
+    margin-top: 25px;
+}
+
+
+.footer .container div p {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.2rem;
+}
+
+.footer .container .contato p:first-child {
+    margin-bottom: 8px;
+}
+
+.footer .container .contato p:first-child::before {
+    content: '';
+    background: url(../imagens/icon-phone.svg) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+}
+
+.footer .container .contato p:last-child::before {
+    content: '';
+    background: url(../imagens/icon-email.svg) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+}
