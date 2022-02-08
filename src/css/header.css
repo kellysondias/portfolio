@@ -16,6 +16,7 @@
 }
 
 .header a:hover .logo {
+    border-color: var(--cor-primaria);
     color: var(--cor-primaria);
     border: 2px solid var(--cor-primaria);
 }

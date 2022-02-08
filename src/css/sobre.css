@@ -7,13 +7,11 @@
 .sobre-mim .imagem-sobre-mim .img-box {
     background: url("../imagens/8bit_forest2.jpg") no-repeat center center;
     background-size: cover;
+    margin-top: 50px;
     padding: 15px;
-    border-radius: 5px;
+    max-width: 430px;
+    width: 100%;
     text-align: center;
-}
-
-.sobre-mim .imagem-sobre-mim img {
-    border-radius: 5px;
 }
 
 .sobre-mim .informacoes-sobre-mim {
@@ -21,12 +19,14 @@
     padding: 0 25px;
 }
 
+.sobre-mim .informacoes-sobre-mim,
 .sobre-mim .informacoes-sobre-mim .botoes {
     margin-top: 50px;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
-    font-size: 1.8rem;
+    line-height: 18px;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 

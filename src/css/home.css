@@ -5,12 +5,16 @@
 
 .home .texto-home {
     letter-spacing: 2px;
+    padding: 50px 15px 0 15px;
 }
 
 .home .texto-home,
 .home .img-home {
     flex: 0 0 50%;
     max-width: 50%;
+}
+
+.home .img-home {
     padding: 0 15px;
 }
 
@@ -37,8 +41,10 @@
     font-family: var(--fonte-primaria);
     font-size: var(--fonte-gigante);
     font-weight: 700;
-    margin-bottom: 20px;
+    margin: 20px auto;
     color: var(--cor-primaria);
+    text-shadow: 10px 10px 0 #000;
+    line-height: 50px;
 }
 
 .home .texto-home h2 {

@@ -62,14 +62,6 @@ strong {
   line-height: 40px;
 }
 
-/* .outer-shadow {
-  box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
-}
-
-.inner-shadow {
-  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-} */
-
 .section {
   padding: 7rem 0 7rem;
 }
@@ -88,13 +80,13 @@ strong {
 }
 
 .botao {
-  font-size: var(--fonte-grande);
+  font-size: var(--fonte-normal);
   padding: 10px 20px;
-  border-radius: 20px;
+  box-shadow: 5px 5px 0 #000;
   transition: all 0.3s ease;
-  background-color: #3ba8e7;
+  background-color: var(--cor-primaria);
 }
 
 .botao:hover {
-  background-color: #6cb92d;
+  background-color: #d10101;
 }
