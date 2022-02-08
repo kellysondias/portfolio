@@ -31,7 +31,7 @@
     top: 0;
     height: 100%;
     width: 100%;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     opacity: 0;
     transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -50,9 +50,9 @@
     opacity: 0.7;
 }
 
-.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
+.projetos .container-projetos .projeto .informacoes-projeto a p {
     font-weight: 700;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 1.4rem;
 }
     @media (max-width: 1280px) {
