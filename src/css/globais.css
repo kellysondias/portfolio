@@ -112,3 +112,9 @@ strong {
 .botao:hover {
   background-color: #d10101;
 }
+
+@media (max-width: 500px) {
+  .section-title h2 {
+    font-size: 170%;;
+  }
+}

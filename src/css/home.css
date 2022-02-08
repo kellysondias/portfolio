@@ -65,4 +65,12 @@
 }
 
 
+@media (max-width: 500px) {
+    .home .texto-home h1 {
+        font-size: 165%;
+    }
+}
+
+
+
 

@@ -34,3 +34,9 @@
 .habilidades .container-habilidades .habilidade i {
     font-size: 8rem;
 }
+
+@media (max-width: 335px) {
+    .habilidades .container-habilidades .habilidade h3 {
+        font-size: var(--fonte-grande);
+    }
+}
