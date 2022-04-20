@@ -24,7 +24,7 @@
 }
 
 .footer .container .contato p:first-child {
-    margin-bottom: 8px;
+    margin: 5px auto;
 }
 
 .footer .container .contato p:first-child::before {
