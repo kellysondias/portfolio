@@ -105,7 +105,6 @@ strong {
   font-size: var(--fonte-normal);
   padding: 10px 20px;
   box-shadow: 5px 5px 0 #000;
-  transition: all 0.3s ease;
   background-color: var(--cor-primaria);
 }
 
