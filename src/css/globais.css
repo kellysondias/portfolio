@@ -113,6 +113,11 @@ strong {
   background-color: #d10101;
 }
 
+.emoticon {
+  color: var(--cor-primaria);
+  font-size: 1.2rem;
+}
+
 @media (max-width: 500px) {
   .section-title h2 {
     font-size: 170%;;
