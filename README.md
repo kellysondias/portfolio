@@ -1,5 +1,5 @@
 # Meu portfólio 💾
-Este é meu portfólio pessoal, onde eu coloco as minhas experiências como desenvolvedor de software em geral!
+Este é meu portfólio pessoal, onde eu coloco as minhas experiências como desenvolvedor de software em geral! <a href="meu-portfolio-dusky.vercel.app">Clique aqui</a> para ver o site.
 
 [<img src="src/imagens/desktop.gif" alt="Layout desktop do site">](https://kellysondias.github.io/meu-portfolio/)
 
