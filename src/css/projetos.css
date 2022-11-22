@@ -8,10 +8,10 @@
 .projetos .container-projetos .projeto {
     margin: 0 auto;
     transition: all 0.3s ease;
+    position: relative;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
-    position: relative;
 }
 
 .projetos .container-projetos .projeto:hover {
