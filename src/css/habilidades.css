@@ -1,66 +1,79 @@
 .habilidades .container-habilidades {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .habilidades .container-habilidades .habilidade {
-    max-width: 350px;
-    margin: 15px;
+  max-width: 350px;
+  margin: 15px;
 }
 
-.habilidade:first-child:hover {
-    color: var(--typescript);
+.devicon-typescript-plain:hover {
+  color: var(--typescript);
 }
 
-.habilidade:nth-of-type(2):hover {
-    color: var(--react);
-  }
+.fa-react:hover {
+  color: var(--react);
+}
 
-  .habilidade:nth-of-type(3):hover {
-    color: var(--tailwind);
-  }
+.devicon-tailwindcss-plain:hover {
+  color: var(--tailwind);
+}
 
-  .habilidade:nth-of-type(4):hover {
-    color: var(--git);
-  }
+.devicon-sass-original:hover {
+  color: var(--sass);
+}
 
-  .habilidade:nth-of-type(5):hover {
-    color: var(--github);
-  }
+.devicon-git-plain:hover {
+  color: var(--git);
+}
 
-  .habilidade:last-child:hover {
-    color: var(--gitlab);
-  }
-  
+.devicon-github-original:hover {
+  color: var(--github);
+}
 
-.habilidades .container-habilidades .habilidade p,.habilidades .container-habilidades .habilidade h3,.habilidades .container-habilidades .habilidade .logo i {
-    transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
+.devicon-gitlab-plain:hover {
+  color: var(--gitlab);
+}
+
+.devicon-jest-plain:hover {
+  color: var(--jest);
+}
+
+.devicon-redux-original:hover {
+  color: var(--redux);
+}
+
+.habilidades .container-habilidades .habilidade p,
+.habilidades .container-habilidades .habilidade h3,
+.habilidades .container-habilidades .habilidade .logo i {
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
 }
 
 .habilidades .container-habilidades .habilidade h3 {
-    color: var(--cor-primaria);
-    font-size: var(--fonte-extra-grande);
-    font-weight: 500;
-    margin: 10px 0 20px 0;
+  color: var(--cor-primaria);
+  font-size: var(--fonte-extra-grande);
+  font-weight: 500;
+  margin: 10px 0 20px 0;
 }
 
 .habilidades .container-habilidades .habilidade p {
-    font-size: 1.8rem;
-    font-family: var(--fonte-secundaria);
+  font-size: 1.8rem;
+  font-family: var(--fonte-secundaria);
 }
 
 .habilidades .container-habilidades .habilidade i {
-    font-size: 8rem;
+  font-size: 8rem;
 }
 
 @media (max-width: 335px) {
-    .habilidades .container-habilidades .habilidade h3 {
-        font-size: var(--fonte-grande);
-    }
+  .habilidades .container-habilidades .habilidade h3 {
+    font-size: var(--fonte-grande);
+  }
 }

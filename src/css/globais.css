@@ -13,9 +13,12 @@
   --typescript: #2F74C0;
   --react: #00D8FF;
   --tailwind: #2298BD;
+  --sass: #CC6699;
   --git: #F34F29;
   --github: #181616;
   --gitlab: #E24329;
+  --jest: #99425B;
+  --redux: #764ABC;
 }
 
 :root {
