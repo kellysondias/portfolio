@@ -1,16 +1,40 @@
 .habilidades .container-habilidades {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    align-items: center;
     justify-content: center;
 }
 
 .habilidades .container-habilidades .habilidade {
     max-width: 350px;
-    padding: 40px 20px;
+    margin: 15px;
 }
 
-.habilidades .container-habilidades .habilidade:hover {
-    color: var(--cor-primaria);
+.habilidade:first-child:hover {
+    color: var(--typescript);
 }
+
+.habilidade:nth-of-type(2):hover {
+    color: var(--react);
+  }
+
+  .habilidade:nth-of-type(3):hover {
+    color: var(--tailwind);
+  }
+
+  .habilidade:nth-of-type(4):hover {
+    color: var(--git);
+  }
+
+  .habilidade:nth-of-type(5):hover {
+    color: var(--github);
+  }
+
+  .habilidade:last-child:hover {
+    color: var(--gitlab);
+  }
+  
 
 .habilidades .container-habilidades .habilidade p,.habilidades .container-habilidades .habilidade h3,.habilidades .container-habilidades .habilidade .logo i {
     transition: all 0.3s ease;

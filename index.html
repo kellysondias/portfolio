@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,11 +23,12 @@
 </head>
 
 <body>
+  <div id="app"></div>
   <header class="header">
     <div class="container">
       <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="index.html">
-          <h1 class="logo">K</h1>
+        <a href="https://dev.to/kellysondias" target="_blank">
+          <img src="./src/imagens/logo.png" class="logo" alt="Logo">
         </a>
 
         <nav>
@@ -59,6 +59,14 @@
           <h2>Desenvolvedor Front-end</h2>
 
           <div class="redes-sociais">
+            <a href="https://github.com/kellysondias" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://dev.to/kellysondias" target="_blank" class="outer-shadow">
+              <i class="fa-brands fa-dev"></i>
+            </a>
+
             <a href="https://www.linkedin.com/in/kellysondias/" target="_blank" class="outer-shadow">
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -67,10 +75,6 @@
               <i class="fab fa-whatsapp"></i>
             </a>
 
-            <a href="https://github.com/kellysondias" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-            
             <a href="https://twitter.com/kellyson_tech" target="_blank">
               <i class="fa-brands fa-twitter"></i>
             </a>
@@ -119,8 +123,11 @@
           <p>Quando eu não estou programando eu gosto de falar sobre cinema, música, quadrinhos, fotografia e outros
             assuntos <i class="emoticon"><3</i>!<p/>
 
-          <div class="botoes">
-            <a target="_blank" href="https://drive.google.com/file/d/1AWXombllIYYH_H2aJ30hjkI2LvqiI6Wy/view?usp=sharing" class="botao">Veja meu CV</a>
+          <div>
+            <div class="botoes">
+              <a target="_blank" href="https://drive.google.com/file/d/1AWXombllIYYH_H2aJ30hjkI2LvqiI6Wy/view?usp=sharing" class="botao">Veja meu CV</a>
+            </div>
+            <img src="./src/imagens/porygon.gif" class="porygon" alt="Porygon">
           </div>
         </div>
       </div>
@@ -136,61 +143,37 @@
       </div>
     </div>
 
-    <div class="container-habilidades row">
-
+    <div class="container-habilidades">
       <div class="habilidade">
         <div class="logo">
-          <i class="devicon devicon-html5-plain-wordmark"></i>
+          <i class="devicon devicon-typescript-plain"></i>
         </div>
-        <h3>HTML5</h3>
-        <p>Conheço conceitos avançados de HTML, como tags semânticas, hierarquia de tags, como criar formulários,
-          estruturas de mídia responsivas, meta tags e formatação de texto. </p>
-      </div>
-
-      <div class="habilidade">
-        <div class="logo">
-          <i class="devicon devicon-css3-plain-wordmark"></i>
-        </div>
-        <h3>CSS3</h3>
-        <p>Tenho experiência com CSS e conheço conceitos como flexbox, display grid, posicionamento, responsividade,
-          pseudo-classes e elementos, seletores, variáveis, animações etc. </p>
-      </div>
-      <div class="habilidade">
-        <div class="logo">
-          <i class="devicon devicon-javascript-plain"></i>
-        </div>
-        <h3>JavaScript</h3>
-        <p>Tenho experiência com JavaScript e sou familiar com conceitos como consumo de API's Rest, DOM, métodos dentre outros.</p>
       </div>
       <div class="habilidade">
         <div class="logo">
           <i class="fa-brands fa-react"></i>
         </div>
-        <h3>ReactJS</h3>
-        <p>Possuo conhecimentos em React como componentização, hooks de estado, styled components, Context API e React Router.</p>
+      </div>
+      <div class="habilidade">
+        <div class="logo">
+          <i class="devicon devicon-tailwindcss-plain"></i>
+        </div>
       </div>
       <div class="habilidade">
         <div class="logo">
           <i class="devicon devicon-git-plain"></i>
         </div>
-        <h3>Git</h3>
-        <p>Sei comandos importantes para versionamento de código, como git add, commit, push e status. </p>
       </div>
       <div class="habilidade">
         <div class="logo">
           <i class="devicon devicon-github-original"></i>
         </div>
-        <h3>GitHub</h3>
-        <p>Sei como criar, configurar, editar e clonar repositórios. Também sei como fazer forks e configurações SSH.</p>
       </div>
       <div class="habilidade">
         <div class="logo">
-          <i class="fa-solid fa-vial"></i>
+          <i class="devicon devicon-gitlab-plain"></i>
         </div>
-        <h3>Jest</h3>
-        <p>Sei como realizar testes automatizados de funções utilizando Jest.</p>
       </div>
-    </div>
   </section>
 
   <section class="projetos" id="projetos">
@@ -205,9 +188,26 @@
     <div class="container-projetos container">
       <div class="projeto">
         <img src="src/imagens/project-1.gif" alt="Projeto número 1">
+        <h3>Codechella</h3>
+        <div class="informacoes-projeto">
+          <p class="descricao">Website desenvolvido com React (React Router), TypeScript e TailwindCSS (Ainda em desenvolvimento)</p>
+
+          <div class="project-links">
+            <a target="_blank" href="https://codechella-festival.vercel.app/">
+              <p>🔗 Ver site</p>
+            </a>
+            <a target="_blank" href="https://github.com/kellysondias/codechella/">
+              <p>🔗 Ver Repositório</p>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="projeto">
+        <img src="src/imagens/project-2.gif" alt="Projeto número 1">
         <h3>Lumière</h3>
         <div class="informacoes-projeto">
-          <p>Site de filmes usando a API do TMDB, TypeScript e React, com Styled Components e React Router.</p>
+          <p class="descricao">Site de filmes usando a API do TMDB, TypeScript e React, com Styled Components e React Router.</p>
 
           <div class="project-links">
             <a target="_blank" href="https://lumiere-iota.vercel.app/">
@@ -221,10 +221,10 @@
       </div>
 
       <div class="projeto">
-        <img src="src/imagens/project-2.gif" alt="Projeto número 2">
+        <img src="src/imagens/project-3.gif" alt="Projeto número 2">
         <h3>Pokédex</h3>
         <div class="informacoes-projeto">
-          <p>Pokédex web usando a API PokéAPI, desenvolvida usando React, com Styled Components, React Router e Context API.</p>
+          <p class="descricao">Pokédex web usando a API PokéAPI, desenvolvida usando React, com Styled Components, React Router e Context API.</p>
 
           <div class="project-links">
             <a target="_blank" href="https://pokedex-react-seven-sage.vercel.app/">
@@ -238,33 +238,16 @@
       </div>
 
       <div class="projeto">
-        <img src="src/imagens/project-3.gif" alt="Projeto número 3">
+        <img src="src/imagens/project-4.gif" alt="Projeto número 3">
         <h3>GitHub API Searcher</h3>
         <div class="informacoes-projeto">
-          <p>Buscador de usuários usando a API do GitHub.</p>
+          <p class="descricao">Buscador de usuários usando a API do GitHub.</p>
 
           <div class="project-links">
             <a target="_blank" href="https://github-searcher-eta.vercel.app">
               <p>🔗 Ver site</p>
             </a>
             <a target="_blank" href="https://github.com/kellysondias/github-api">
-              <p>🔗 Ver Repositório</p>
-          </div>
-        </div>
-        </a>
-      </div>
-
-      <div class="projeto">
-        <img src="src/imagens/project-4.gif" alt="Projeto número 4">
-        <h3>Manage's Landing Page</h3>
-        <div class="informacoes-projeto">
-          <p>Landing page para uma empresa fictícia usando HTML, CSS, JavaScript e a biblioteca Glider.js.</p>
-
-          <div class="project-links">
-            <a target="_blank" href="https://manage-landing-page-fawn.vercel.app/">
-              <p>🔗 Ver site</p>
-            </a>
-            <a target="_blank" href="https://github.com/kellysondias/manage-landing-page/">
               <p>🔗 Ver Repositório</p>
           </div>
         </div>
@@ -279,7 +262,15 @@
 
       <div class="redes-sociais">
 
-        <a href="https://www.linkedin.com/in/kellysondias/" target="_blank">
+        <a href="https://github.com/kellysondias" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://dev.to/kellysondias" target="_blank" class="outer-shadow">
+          <i class="fa-brands fa-dev"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/kellysondias/" target="_blank" class="outer-shadow">
           <i class="fab fa-linkedin-in"></i>
         </a>
 
@@ -287,12 +278,8 @@
           <i class="fab fa-whatsapp"></i>
         </a>
 
-        <a href="https://github.com/kellysondias" target="_blank">
-          <i class="fab fa-github"></i>
-        </a>
-        
         <a href="https://twitter.com/kellyson_tech" target="_blank">
-           <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-twitter"></i>
         </a>
 
         <a href="https://www.instagram.com/kellysondias/" target="_blank">
@@ -306,6 +293,6 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="./src/js/index.js"></script>
 </body>
-
 </html>

@@ -13,19 +13,36 @@
 }
 
 .sobre-mim .informacoes-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 50%;
     padding: 0 25px;
 }
 
 .sobre-mim .informacoes-sobre-mim,
 .sobre-mim .informacoes-sobre-mim .botoes {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .sobre-mim .informacoes-sobre-mim p {
     line-height: 18px;
     font-size: 1.5rem;
     margin-bottom: 20px;
+}
+
+.sobre-mim .informacoes-sobre-mim div:last-child {
+    position: relative;
+    width: 280px;
+}
+
+.porygon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotate(-10deg)
 }
 
 @media (max-width: 1280px) {
@@ -45,5 +62,10 @@
         text-align: center;
         max-width: 100%;
     }
+}
 
+@media (min-width: 1380px) {
+    .sobre-mim .informacoes-sobre-mim div:last-child {
+        width: 250px;
+    }
 }

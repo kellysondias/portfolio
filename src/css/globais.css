@@ -10,6 +10,12 @@
   --cor-fundo-escuro: #040203;
   --cor-fundo-cinza-escuro: #252525;
   --cor-fundo-cinza-claro: #353535;
+  --typescript: #2F74C0;
+  --react: #00D8FF;
+  --tailwind: #2298BD;
+  --git: #F34F29;
+  --github: #181616;
+  --gitlab: #E24329;
 }
 
 :root {

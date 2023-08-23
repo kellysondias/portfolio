@@ -23,6 +23,10 @@
     opacity: 0.8;
 }
 
+.informacoes-projeto .descricao {
+    font-size: 14px;
+}
+
 .projetos .container-projetos .projeto img {
     height: 100%;
     width: 100%;
