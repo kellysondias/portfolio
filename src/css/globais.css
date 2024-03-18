@@ -19,6 +19,10 @@
   --gitlab: #E24329;
   --jest: #99425B;
   --redux: #764ABC;
+  --nodejs: #84CE24;
+  --express: #444444;
+  --mongodb: #4FA940;
+  --postgresql: #336791;
 }
 
 :root {
