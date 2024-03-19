@@ -27,7 +27,7 @@
 }
 
 :root {
-  --fonte-primaria:'Press Start 2P', cursive;;
+  --fonte-primaria:'Press Start 2P', sans-serif;
   --fonte-secundaria: 'DotGothic16', sans-serif;
   --fonte-gigante: 4.5rem;
   --fonte-extra-grande: 3rem;
