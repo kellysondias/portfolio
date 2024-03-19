@@ -90,6 +90,10 @@
   -webkit-transition: none;
 }
 
+.projetos .container-projetos .projeto:hover {
+  opacity: 1;
+}
+
 .projetos .container-projetos .projeto.api .informacoes-projeto {
   padding-top: 40px;
   opacity: 1;
@@ -108,10 +112,11 @@
 }
 
 .projetos .container-projetos .projeto.api h3:after {
+  content: "- X";
   position: absolute;
   right: 0;
   margin-right: 5px;
-  content: "- X";
+  cursor: pointer;
 }
 
 .projetos .container-projetos .projeto.api h3,
@@ -125,8 +130,8 @@
 }
 
 .projeto.api .project-links p:before {
-  margin-right: 5px;
   content: ">";
+  margin-right: 5px;
 }
 
 @keyframes fade {
