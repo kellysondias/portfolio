@@ -38,6 +38,7 @@
 :root {
   --mobile-padding: 30px;
   --typing-speed: 2s;
+  --typing-characters: 13;
 }
 
 html {
