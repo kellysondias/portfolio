@@ -1,34 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
 
 :root {
-  --cor-primaria: #30AAA1;
-  --cor-secundaria: #886CE4;
+  --cor-primaria: #30aaa1;
+  --cor-secundaria: #886ce4;
   --cor-branca: #fff;
   --cor-fundo-escuro: #040203;
   --cor-fundo-cinza-escuro: #252525;
   --cor-fundo-cinza-claro: #353535;
-  --cor-api: #00FF01;
-  --typescript: #2F74C0;
-  --react: #00D8FF;
-  --tailwind: #2298BD;
-  --sass: #CC6699;
-  --git: #F34F29;
+  --cor-api: #00ff01;
+  --typescript: #2f74c0;
+  --react: #00d8ff;
+  --tailwind: #2298bd;
+  --sass: #cc6699;
+  --git: #f34f29;
   --github: #181616;
-  --gitlab: #E24329;
-  --jest: #99425B;
-  --redux: #764ABC;
-  --nodejs: #84CE24;
+  --gitlab: #e24329;
+  --jest: #99425b;
+  --redux: #764abc;
+  --nodejs: #84ce24;
   --express: #444444;
-  --mongodb: #4FA940;
+  --mongodb: #4fa940;
   --postgresql: #336791;
 }
 
 :root {
-  --fonte-primaria:'Press Start 2P', sans-serif;
-  --fonte-secundaria: 'DotGothic16', sans-serif;
+  --fonte-primaria: "Press Start 2P", sans-serif;
+  --fonte-secundaria: "DotGothic16", sans-serif;
   --fonte-gigante: 4.5rem;
   --fonte-extra-grande: 3rem;
   --fonte-grande: 2.4rem;
@@ -37,6 +37,7 @@
 
 :root {
   --mobile-padding: 30px;
+  --typing-speed: 2s;
 }
 
 html {
@@ -46,7 +47,7 @@ html {
   color: var(--cor-branca);
 }
 
-.container  {
+.container {
   max-width: 1140px;
   margin: auto;
 }
@@ -132,8 +133,17 @@ strong {
   font-size: 1.2rem;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 500px) {
   .section-title h2 {
-    font-size: 170%;;
+    font-size: 170%;
   }
 }
