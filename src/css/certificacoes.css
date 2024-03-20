@@ -1,3 +1,9 @@
 .badges {
-    margin: 5rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
+}
+
+@media (max-width: 340px) {
+  .certifications h2 {
+    font-size: 140%;
+  }
 }
